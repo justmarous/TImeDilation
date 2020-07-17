@@ -97,7 +97,7 @@ public class Main {
                 System.out.println("How far are you from this body? (km)");
                 distance = scanner.nextDouble();
                 schwartzschild = stellarList[choice].schwartzschildFactor(distance);
-
+        ///
 
                 System.out.println("The time dilation will be of value equal to: " + schwartzschild);
 
