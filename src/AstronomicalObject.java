@@ -24,7 +24,7 @@ public class AstronomicalObject {
     public AstronomicalObject(double mass, double radius) {
         this("Custom astronomical object",mass,radius);
     }
-
+//one
     public AstronomicalObject(String name, double mass, double radius) {
         this.name = name;
         this.mass = mass;
